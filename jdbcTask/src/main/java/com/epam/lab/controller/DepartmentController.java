@@ -22,6 +22,7 @@ public class DepartmentController {
 		System.out.println("Press 4 for update department");
 		System.out.println("Press 5 for delete department");
 		System.out.println("Press 6 for exit");
+		System.out.println();
 		String sc = scanner.next();
 		switch (sc) {
 		case "1":{
